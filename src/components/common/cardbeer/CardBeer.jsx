@@ -1,6 +1,7 @@
-import React from 'react'
 
-const Card = ({data}) => {
+
+const CardBeer = ({data}) => {
+  
   return (
     <div className='card'>
         <h3>{data.name}</h3>
@@ -10,4 +11,4 @@ const Card = ({data}) => {
   )
 }
 
-export default Card
+export default CardBeer

@@ -1,0 +1,30 @@
+.contenedor-main {
+    position: relative;
+    text-align: center; /* Para centrar el texto */
+  }
+  
+  @keyframes caidaDesdeArriba {
+    0% {
+      transform: translateY(-100px); /* Cambiado para iniciar desde una posición más alta */
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .contenedor-main h1 {
+    position: absolute;
+    top: 50px; /* Ajusta según sea necesario para el punto de partida */
+    left: 50%;
+    transform: translateX(-50%);
+    animation: caidaDesdeArriba 1s ease forwards;
+    z-index: 1; /* Asegura que el título esté por encima de la imagen */
+  }
+  
+  .contenedor-main img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }

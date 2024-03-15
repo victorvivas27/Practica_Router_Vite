@@ -1,0 +1,18 @@
+.imagen {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.contenedor-productos {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Cambiado a center para centrar los productos horizontalmente */
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.titulo-producto {
+    font-size: 18px; /* Tamaño de fuente para el título del producto */
+    margin-bottom: 10px; /* Separación entre el título y la imagen */
+}

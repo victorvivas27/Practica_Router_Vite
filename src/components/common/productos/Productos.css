@@ -1,0 +1,10 @@
+.contenedor-card-productos {
+    margin-top: 100px;
+    border: 2px solid #000;
+    width: 300px;
+    height: auto; /* Cambiado a auto para que la altura se ajuste según el contenido */
+    padding: 20px; /* Agregado espacio interno para separar el contenido del borde */
+    margin-bottom: 20px; /* Agregado margen inferior para separar los productos */
+    box-sizing: border-box; /* Agregado para incluir el padding en el tamaño total del contenedor */
+    text-align: center; /* Centrar el texto dentro del contenedor */
+}

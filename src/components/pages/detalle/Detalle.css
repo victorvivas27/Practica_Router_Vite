@@ -1,0 +1,31 @@
+.detalle-container {
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor en la página */
+    padding: 20px; /* Espacio interno */
+}
+
+.detalle-image {
+    max-width: 100%; /* La imagen ocupa el máximo ancho del contenedor */
+    height: auto; /* Altura automática para mantener la proporción */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+.detalle-title {
+    font-size: 24px; /* Tamaño de fuente del título */
+    margin-bottom: 10px; /* Espacio inferior */
+}
+
+.detalle-category {
+    font-size: 20px; /* Tamaño de fuente de la categoría */
+    margin-bottom: 10px; /* Espacio inferior */
+}
+
+.detalle-price {
+    font-size: 18px; /* Tamaño de fuente del precio */
+    margin-bottom: 10px; /* Espacio inferior */
+}
+
+.detalle-description {
+    font-size: 16px; /* Tamaño de fuente de la descripción */
+    margin-bottom: 20px; /* Espacio inferior */
+}
